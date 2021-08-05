@@ -8,47 +8,60 @@
     <title>torneosonline</title>
     <!-- Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <!-- Header: menú e imagen de portada del torneo -->
-    <header class="container-fluid bg-dark">
+    <header id="header-index" class="container-fluid">
         <nav class="container shadow pt-4 pb-4">
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Inscripciones</a>
+                    <a href="#que-incluye" class="nav-link text-white">Qué incluye</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Reglamento</a>
+                    <a href="#formas-pago" class="nav-link text-white">Formas de pago</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link btn-danger text-white">Contacto</a>
+                    <a href="#" class="nav-link btn-danger text-white">Inscripciones</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#premios" class="nav-link text-white">Bolsa de premios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link text-white">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <!-- Imagen de Encabezado -->
+    <img src="media/encabezado.png" alt="encabezado" class="img-fluid vw-100">
     <!-- Secciones de la página con info del torneo -->
     <main class="container-fluid">
-        <section class="container pt-5 pb-5">
-            <h2 class="display-6 text-center fw-bold fst-italic mb-5">Lo que incluye</h2>
+        <section id="que-incluye" class="container pt-5 pb-5">
+            <h2 class="display-6 text-center fw-bold fst-italic mt-5 mb-5">Lo que incluye</h2>
             <article class="row justify-content-center mt-5 mb-5">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4"> 
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="https://img.icons8.com/ios-glyphs/48/000000/tournament-mode.png" alt="icono-torneo" class="img-fluid rounded mx-auto d-block mb-2"/>
                     <div class="card-body text-center mt-1 mb-3">
                         <h4 class="card-title mb-4 fw-bold">Participación en<br>el torneo</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                        <p class="card-text text-muted">Tu equipo podrá participar en el torneo relámpago y en todas las instancias a las que logre clasificar durante dicha edición</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="https://img.icons8.com/fluency-systems-regular/48/000000/video.png" alt="icono-video" class="img-fluid rounded mx-auto d-block mb-2"/>
                     <div class="card-body text-center mt-1 mb-3">
                         <h4 class="card-title mb-4 fw-bold">Video de presentación<br>para el equipo</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                        <p class="card-text text-muted">Al inscribirse, se les pedirá una foto de cada integrante del equipo para realizar un video profesional de presentación para antes del comienzo de los encuentros</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://img.icons8.com/fluency-systems-regular/48/000000/certificate.png" alt="icono-diploma" class="img-fluid rounded mx-auto d-block mb-2"/>
                     <div class="card-body text-center mt-1 mb-3">
                         <h4 class="card-title mb-4 fw-bold">Constancia de<br>participación</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                        <p class="card-text text-muted">Se les expedirá a cada participante una constancia de participación en el torneo, además de una constancia como equipo</p>
                     </div>
                 </div>
                 <div class="col-12 text-center mt-5">
@@ -56,46 +69,67 @@
                 </div>
             </article>
         </section>
-        <section class="container pt-5 pb-5">
-            <h2 class="display-6 text-center fw-bold fst-italic mb-5">Formas de pago</h2>
+        <section id="formas-pago" class="container pt-5 pb-5">
+            <h2 class="display-6 text-center fw-bold fst-italic mt-5 mb-5">Formas de pago</h2>
             <article class="row justify-content-center mt-5 mb-5">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div class="card shadow-sm">
+                        <img src="https://img.icons8.com/windows/48/000000/money-transfer.png" alt="icono-diploma" class="img-fluid rounded mx-auto d-block mt-4 mb-2"/>
                         <div class="card-body text-center mt-1 mb-3">
                             <h4 class="card-title mb-4 fw-bold">Transferencia<br>bancaria</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
-                            <a href="#" class="btn btn-danger text-white">Generar ficha</a>
+                            <p class="card-text">Por equipo, un representante puede realizar el depósito del monto de inscripción mediante transferencia bancaria</p>
+                            <a href="#" class="btn btn-danger text-white">Descargar ficha</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card shadow-sm">
+                        <img src="https://img.icons8.com/material-outlined/48/000000/paypal.png" alt="icono-diploma" class="img-fluid rounded mx-auto d-block mt-4 mb-2"/>
                         <div class="card-body text-center mt-1 mb-3">
                             <h4 class="card-title mb-4 fw-bold">Transferencia<br>por Paypal</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                            <p class="card-text">Por equipo, un representante puede realizar una transferencia por Paypal, específicando el monto de la inscripción para el torneo</p>
                             <a href="#" class="btn btn-danger text-white">Datos de pago</a>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="container pt-5 pb-5">
-            <h2 class="display-6 text-center fw-bold fst-italic mb-5">Bolsa de premios</h2>
+        <section id="premios" class="container pt-5 pb-5">
+            <h2 class="display-6 text-center fw-bold fst-italic mt-5 mb-5">Bolsa de premios</h2>
             <article class="row justify-content-center mt-5 mb-5">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4"> 
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="https://img.icons8.com/material-outlined/48/000000/medal2.png" alt="icono-medalla-1" class="img-fluid rounded mx-auto d-block mb-2"/> 
                     <div class="card-body text-center mt-1 mb-3">
-                        <h4 class="card-title mb-4 fw-bold">Primer lugar</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                        <h4 class="card-title mb-4 fw-bold">Primer lugar<br>$1,000 MXN</h4>
+                        <p class="card-text text-muted">Premio económico para el equipo que ocupe el primer lugar y se corone campeón del torneo en su edición correspondiente</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://img.icons8.com/material-outlined/48/000000/medal-second-place.png" alt="icono-medalla-2" class="img-fluid rounded mx-auto d-block mb-2"/>
                     <div class="card-body text-center mt-1 mb-3">
-                        <h4 class="card-title mb-4 fw-bold">Segundo lugar</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad repudiandae est accusamus nobis quae vel ipsam corrupti beatae laboriosam nihil, temporibus quibusdam doloribus officia.</p>
+                        <h4 class="card-title mb-4 fw-bold">Segundo lugar<br>$500 MXN</h4>
+                        <p class="card-text text-muted">Premio económico para el equipo que ocupe el segundo lugar como subcampeón del torneo en su edición correspondiente</p>
                     </div>
                 </div>
                 <div class="col-12 text-center mt-5">
                     <a href="#" class="btn btn-danger text-white">Quiero participar</a>
+                </div>
+            </article>
+        </section>
+        <section id="contacto" class="container pt-5 pb-5">
+            <h2 class="display-6 text-center fw-bold fst-italic mb-5">Contacto</h2>
+            <article class="row justify-content-center mt-5 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+                    <img src="https://img.icons8.com/material-outlined/75/000000/whatsapp.png" alt="icono-wa" class="img-fluid rounded mx-auto d-block mb-5"/>
+                    <p class="lead text-muted">+1234567890</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+                    <img src="https://img.icons8.com/fluency-systems-regular/75/000000/facebook.png" alt="icono-wa" class="img-fluid rounded mx-auto d-block mb-5"/>
+                    <p class="lead text-muted">torneosonline</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+                    <img src="https://img.icons8.com/material-outlined/75/000000/marked-mail.png" alt="icono-wa" class="img-fluid rounded mx-auto d-block mb-5"/>
+                    <p class="lead text-muted">correo@dominio.com</p>
                 </div>
             </article>
         </section>
@@ -109,5 +143,6 @@
     <!--Uso de Scripts de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
